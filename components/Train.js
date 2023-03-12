@@ -3,7 +3,7 @@ import shadesData from '../data/shades.json';
 import { Line } from 'rc-progress';
 import * as tf from '@tensorflow/tfjs';
 import Upload from './Upload';
-import Predict from './Predict';
+import TgPredict from './TgPredict';
 import "../scss/train.scss";
 
 let model;
@@ -304,7 +304,7 @@ export default class Train extends Component {
       <div className="divider"></div>
       <Upload loading={loading} rgb={rgb} setRGB={this.setRGB} />
       <div className="divider"></div>
-      <Predict loading={loading} rgb={rgb} model={model} foundation={foundation} foundationLabels={foundationLabels} setFoundation={this.setFoundation} />
+      <TgPredict loading={loading} rgb={rgb} model={model} foundation={foundation} foundationLabels={foundationLabels} setFoundation={this.setFoundation} />
     </div>
     );
   }
