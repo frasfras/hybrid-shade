@@ -57,8 +57,8 @@
 }
 .upload .measure {
   position: absolute;
-  left: -10000px;
-  top: -10000px;
+  left: -1000px;
+  top: -1000px;
 }
 .upload .canvas-container {
   display: flex;
@@ -115,6 +115,7 @@
 }
 .predict-model {
   margin-top: 3rem;
+  align-items: left;
 }
 .predict-model .predict-model-button {
   display: flex;
@@ -139,12 +140,12 @@
 .predict-results {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   padding: 1rem;
   font-size: 1.5rem;
   margin: 3rem auto 0 auto;
   max-width: 28rem;
-  background: rgba(11, 175, 216, 0.2);
+  background: rgba(7, 156, 194, 0.2);
   position: relative;
 }
 .predict-results .predict-result {
@@ -174,6 +175,8 @@
 }
 
 .train-inputs {
+  background-image: url("/backg1.3dc0c496.png");
+  background-repeat: no-repeat;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -191,6 +194,7 @@
   flex-flow: column;
   justify-content: flex-start;
   margin-bottom: 0.5rem;
+  height: 300px;
 }
 .train-inputs .input-group .input-container .label {
   font-size: 1.25rem;
