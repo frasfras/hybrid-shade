@@ -25,7 +25,7 @@ export default class TgPredict extends Component {
         return (
             <div className="predict-model">
                 <div className="predict-results">
-                  <h2>Prediction Results</h2>
+                  <h2>Prediction </h2>
                   <div className="predict-result">
                     <span>Foundation Match:</span>
                     <span>{foundation}</span>
@@ -38,7 +38,7 @@ export default class TgPredict extends Component {
                         <div className="inner two"></div>
                         <div className="inner three"></div>
                       </div>
-                    : 'Run Analysis'
+                    : ' Analysis'
                     }
                 </div>
           </div>
