@@ -27,7 +27,7 @@ export default class TgPredict extends Component {
                 <div className="predict-results">
                   <h2>Prediction </h2>
                   <div className="predict-result">
-                    <span>Foundation Match:</span>
+                    <span>Makeup Match:</span>
                     <span>{foundation}</span>
                   </div>
                 </div>
